@@ -32,6 +32,8 @@ list_of_project_files = [
 
 ]
 
+# creating a file directory and file
+
 for filepath in list_of_project_files:
     filepath = Path(filepath)
     filedir, filename= os.path.split(filepath)
