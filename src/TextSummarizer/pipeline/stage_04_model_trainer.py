@@ -7,9 +7,6 @@ class ModelTrainingpipeline:
         pass
     
     def main(self):
-        config_filepath = "config.yaml"
-        params_filepath = "params.yaml"
-
         config = ConfigurationManager()
         model_trainer_config = config.get_model_trainer_config()
         model_trainer_config = ModelTrainer(config=model_trainer_config)

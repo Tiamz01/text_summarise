@@ -85,8 +85,8 @@ class ConfigurationManager:
         model_trainer_config = ModelTrainerConfig(
             root_dir = config.root_dir,
             data_path = config.data_path,
-            model_ckpt= params.model_ckpt,
-            num_train_epochs = params.num_train_epoch,
+            model_ckpt = config.model_ckpt,
+            num_train_epochs = params.num_train_epochs,
             warmup_steps = params.warmup_steps,
             per_device_train_batch_size = params.per_device_train_batch_size,
             weight_decay = params.weight_decay,
