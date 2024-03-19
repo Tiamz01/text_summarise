@@ -52,9 +52,9 @@ class ModelTrainerConfig:
     save_steps: float
     gradient_accumulation_steps: int
 
-
+# model evaluation entity
 @dataclass(frozen=True)
-class ModelEvationConfig:
+class ModelEvaluationConfig:
     root_dir: Path
     data_path: Path
     model_path: Path
