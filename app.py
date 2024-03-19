@@ -13,7 +13,7 @@ text:str = "Explain Text Summariation"
 app = FastAPI()
 @app.get('/', tags=["authentication"])
 async def index():
-    return RedirectResponse(url="/docs")\
+    return RedirectResponse(url="/docs")
 
  
 @app.get("/train")
